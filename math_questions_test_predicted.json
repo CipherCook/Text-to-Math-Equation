@@ -1,0 +1,22 @@
+[
+    {
+        "Problem": "a shopkeeper sold an article offering a discount of 5 % and earned a profit of 31.1 % . what would have been the percentage of profit earned if no discount had been offered ?",
+        "predicted": "add(n1,const_100)|subtract(const_100,n0)|multiply(#0,#1)|divide(#2,const_100)|subtract(#3,const_100)|"
+    },
+    {
+        "Problem": "what will be the difference between simple and compound interest at 14 % per annum on a sum of rs . 1000 after 4 years ?",
+        "predicted": "divide(n0,const_100)|add(#0,const_1)|multiply(n1,#0)|multiply(n2,#1)|divide(#3,const_100)|power(#2,n2)|multiply(n1,#5)|subtract(#6,n1)|subtract(#7,#4)|"
+    },
+    {
+        "Problem": "there are 28 stations between hyderabad and bangalore . how many second class tickets have to be printed , so that a passenger can travel from any station to any other station ?",
+        "predicted": "add(n0,const_1)|add(#0,const_1)|multiply(#0,#1)|"
+    },
+    {
+        "Problem": "the sum of all the integers s such that - 26 < s < 24 is",
+        "predicted": "negate(n0)|add(#0,const_1)|add(#1,const_1)|add(#1,#2)|"
+    },
+    {
+        "Problem": "if n is an integer and 101 n ^ 2 is less than or equal to 10000 , what is the greatest possible value of n ?",
+        "predicted": "divide(n2,n0)|sqrt(#0)|floor(#1)|"
+    }
+]
